@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "60be01d5b7f9c90f294c7d12"
+  },
+  "name": "Thin Mints",
+  "price": {
+    "$numberDecimal": "6.00"
+  },
+  "ingredients": [
+    "sugar",
+    "cocoa",
+    "mint oil"
+  ]
+},
+{
+  "_id": {
+    "$oid": "60be01d5b7f9c90f294c7d13"
+  },
+  "name": "Samoas",
+  "price": {
+    "$numberDecimal": "6.00"
+  },
+  "ingredients": [
+    "cocoa",
+    "coconut extract",
+    "sugar",
+    "butter"
+  ]
+},
+{
+  "_id": {
+    "$oid": "60be01d5b7f9c90f294c7d14"
+  },
+  "name": "Tagalongs",
+  "price": {
+    "$numberDecimal": "6.00"
+  },
+  "ingredients": [
+    "cocoa",
+    "sugar",
+    "peanut oil",
+    "peanut butter"
+  ]
+},
+{
+  "_id": {
+    "$oid": "60be01d5b7f9c90f294c7d15"
+  },
+  "name": "Trefoils",
+  "price": {
+    "$numberDecimal": "6.00"
+  },
+  "ingredients": [
+    "flour",
+    "sugar",
+    "vegetable oil",
+    "corn starch",
+    "salt"
+  ]
+},
+{
+  "_id": {
+    "$oid": "60be01d5b7f9c90f294c7d16"
+  },
+  "name": "Toffeetastic",
+  "price": {
+    "$numberDecimal": "6.00"
+  },
+  "ingredients": [
+    "enriched flour",
+    "sugar",
+    "butter",
+    "toffee bits"
+  ]
+}]

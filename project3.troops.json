@@ -1,0 +1,442 @@
+[{
+  "_id": 1234,
+  "founding_date": {
+    "$date": "2022-09-01T00:00:00.000Z"
+  },
+  "community": "Long Beach",
+  "scouts": [
+    {
+      "_id": {
+        "$oid": "60bf30d1e8f9c23f691c8e31"
+      },
+      "firstname": "Naomi",
+      "lastname": "Nagata",
+      "birthday": {
+        "$date": "2017-03-03T00:00:00.000Z"
+      },
+      "gradelevel": "K",
+      "adults": [
+        {
+          "adultid": {
+            "$oid": "60be5d91e8f9c23f691c8e17"
+          },
+          "firstname": "James",
+          "lastname": "Holden"
+        }
+      ],
+      "allotments": [
+        {
+          "deliverydate": {
+            "$date": "2023-01-19T00:00:00.000Z"
+          },
+          "cookies": [
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d12"
+              },
+              "cookietype": "Thin Mints",
+              "boxes": 36
+            },
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d13"
+              },
+              "cookietype": "Samoas",
+              "boxes": 36
+            },
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d14"
+              },
+              "cookietype": "Tagalongs",
+              "boxes": 24
+            }
+          ]
+        }
+      ],
+      "payments": [
+        {
+          "amount": {
+            "$numberDecimal": "540"
+          },
+          "paymentdate": {
+            "$date": "2023-03-01T00:00:00.000Z"
+          }
+        },
+        {
+          "amount": {
+            "$numberDecimal": "24"
+          },
+          "paymentdate": {
+            "$date": "2023-03-15T00:00:00.000Z"
+          }
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "60bf30d1e8f9c23f691c8e32"
+      },
+      "firstname": "Grace",
+      "lastname": "Hopper",
+      "birthday": {
+        "$date": "2017-01-30T00:00:00.000Z"
+      },
+      "gradelevel": "K",
+      "adults": [
+        {
+          "adultid": {
+            "$oid": "60be5d91e8f9c23f691c8e18"
+          },
+          "firstname": "Ada",
+          "lastname": "Lovelace"
+        }
+      ],
+      "allotments": [
+        {
+          "deliverydate": {
+            "$date": "2023-01-19T00:00:00.000Z"
+          },
+          "cookies": [
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d12"
+              },
+              "cookietype": "Thin Mints",
+              "boxes": 30
+            },
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d13"
+              },
+              "cookietype": "Samoas",
+              "boxes": 20
+            },
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d14"
+              },
+              "cookietype": "Tagalongs",
+              "boxes": 10
+            }
+          ]
+        }
+      ],
+      "payments": [
+        {
+          "amount": {
+            "$numberDecimal": "360"
+          },
+          "paymentdate": {
+            "$date": "2023-02-01T00:00:00.000Z"
+          }
+        }
+      ]
+    }
+  ],
+  "volunteers": [
+    {
+      "adultid": {
+        "$oid": "60be5d91e8f9c23f691c8e17"
+      },
+      "firstname": "James",
+      "lastname": "Holden",
+      "position": "Co-leader"
+    },
+    {
+      "adultid": {
+        "$oid": "60be5d91e8f9c23f691c8e18"
+      },
+      "firstname": "Ada",
+      "lastname": "Lovelace",
+      "position": "Treasurer, Cookie Chair"
+    }
+  ],
+  "allotments": [
+    {
+      "troopid": 1234,
+      "deliverydate": {
+        "$date": "2023-01-19T00:00:00.000Z"
+      },
+      "cookies": [
+        {
+          "cookieid": {
+            "$oid": "60be01d5b7f9c90f294c7d12"
+          },
+          "cookietype": "Thin Mints",
+          "cases": 10
+        },
+        {
+          "cookieid": {
+            "$oid": "60be01d5b7f9c90f294c7d13"
+          },
+          "cookietype": "Samoas",
+          "cases": 10
+        },
+        {
+          "cookieid": {
+            "$oid": "60be01d5b7f9c90f294c7d14"
+          },
+          "cookietype": "Tagalongs",
+          "cases": 10
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": 6789,
+  "founding_date": {
+    "$date": "2023-01-01T00:00:00.000Z"
+  },
+  "community": "Cerritos",
+  "scouts": [
+    {
+      "_id": {
+        "$oid": "60be01d5b7f9c90f294c7d1d"
+      },
+      "firstname": "Barbara",
+      "lastname": "Liskov",
+      "birthday": {
+        "$date": "2014-07-01T00:00:00.000Z"
+      },
+      "gradelevel": "3",
+      "adults": [
+        {
+          "adultid": {
+            "$oid": "60be01d5b7f9c90f294c7d15"
+          },
+          "firstname": "Ada",
+          "lastname": "Lovelace"
+        },
+        {
+          "adultid": {
+            "$oid": "60be01d5b7f9c90f294c7d17"
+          },
+          "firstname": "Lord",
+          "lastname": "Bryon"
+        }
+      ],
+      "allotments": [
+        {
+          "deliverydate": {
+            "$date": "2023-01-20T00:00:00.000Z"
+          },
+          "cookies": [
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d12"
+              },
+              "cookietype": "Thin Mints",
+              "boxes": 120
+            },
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d13"
+              },
+              "cookietype": "Samoas",
+              "boxes": 36
+            },
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d14"
+              },
+              "cookietype": "Tagalongs",
+              "boxes": 60
+            }
+          ]
+        },
+        {
+          "deliverydate": {
+            "$date": "2023-02-17T00:00:00.000Z"
+          },
+          "cookies": [
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d15"
+              },
+              "cookietype": "Trefoils",
+              "boxes": 36
+            },
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d16"
+              },
+              "cookietype": "Toffetastic",
+              "boxes": 7
+            }
+          ]
+        }
+      ],
+      "payments": [
+        {
+          "amount": {
+            "$numberDecimal": "1296"
+          },
+          "paymentdate": {
+            "$date": "2023-01-31T00:00:00.000Z"
+          }
+        },
+        {
+          "amount": {
+            "$numberDecimal": "198"
+          },
+          "paymentdate": {
+            "$date": "2023-02-21T00:00:00.000Z"
+          }
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "60be01d5b7f9c90f294c7d1e"
+      },
+      "firstname": "Mary",
+      "lastname": "Sparck Jones",
+      "birthday": {
+        "$date": "2013-12-30T00:00:00.000Z"
+      },
+      "gradelevel": "3",
+      "adults": [
+        {
+          "adultid": {
+            "$oid": "60be01d5b7f9c90f294c7d16"
+          },
+          "firstname": "Mary",
+          "lastname": "Jackson"
+        }
+      ],
+      "allotments": [
+        {
+          "deliverydate": {
+            "$date": "2023-01-20T00:00:00.000Z"
+          },
+          "cookies": [
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d12"
+              },
+              "cookietype": "Thin Mints",
+              "boxes": 120
+            },
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d13"
+              },
+              "cookietype": "Samoas",
+              "boxes": 24
+            },
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d14"
+              },
+              "cookietype": "Tagalongs",
+              "boxes": 60
+            }
+          ]
+        },
+        {
+          "deliverydate": {
+            "$date": "2023-02-18T00:00:00.000Z"
+          },
+          "cookies": [
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d12"
+              },
+              "cookietype": "Thin Mints",
+              "boxes": 60
+            },
+            {
+              "cookieid": {
+                "$oid": "60be01d5b7f9c90f294c7d16"
+              },
+              "cookietype": "Toffetastic",
+              "boxes": 24
+            }
+          ]
+        }
+      ],
+      "payments": [
+        {
+          "amount": {
+            "$numberDecimal": "1614"
+          },
+          "paymentdate": {
+            "$date": "2023-03-15T00:00:00.000Z"
+          }
+        }
+      ]
+    }
+  ],
+  "volunteers": [
+    {
+      "adultid": {
+        "$oid": "60be01d5b7f9c90f294c7d15"
+      },
+      "firstname": "Ada",
+      "lastname": "Lovelace",
+      "position": "Co-leader"
+    }
+  ],
+  "allotments": [
+    {
+      "troopid": 6789,
+      "deliverydate": {
+        "$date": "2023-01-18T00:00:00.000Z"
+      },
+      "cookies": [
+        {
+          "cookieid": {
+            "$oid": "60be01d5b7f9c90f294c7d12"
+          },
+          "cookietype": "Thin Mints",
+          "cases": 20
+        },
+        {
+          "cookieid": {
+            "$oid": "60be01d5b7f9c90f294c7d13"
+          },
+          "cookietype": "Samoas",
+          "cases": 5
+        },
+        {
+          "cookieid": {
+            "$oid": "60be01d5b7f9c90f294c7d14"
+          },
+          "cookietype": "Tagalongs",
+          "cases": 10
+        }
+      ]
+    },
+    {
+      "troopid": 6789,
+      "deliverydate": {
+        "$date": "2023-02-15T00:00:00.000Z"
+      },
+      "cookies": [
+        {
+          "cookieid": {
+            "$oid": "60be01d5b7f9c90f294c7d12"
+          },
+          "cookietype": "Thin Mints",
+          "cases": 5
+        },
+        {
+          "cookieid": {
+            "$oid": "60be01d5b7f9c90f294c7d15"
+          },
+          "cookietype": "Trefoils",
+          "cases": 3
+        },
+        {
+          "cookieid": {
+            "$oid": "60be01d5b7f9c90f294c7d16"
+          },
+          "cookietype": "Toffetastic",
+          "cases": 1
+        }
+      ]
+    }
+  ]
+}]
