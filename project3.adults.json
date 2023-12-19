@@ -1,0 +1,114 @@
+[{
+  "_id": {
+    "$oid": "60be5d91e8f9c23f691c8e18"
+  },
+  "firstname": "Ada",
+  "lastname": "Lovelace",
+  "birthday": {
+    "$date": "1990-10-10T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "troopnumber": 1234,
+      "position": "Treasurer"
+    },
+    {
+      "troopnumber": 1234,
+      "position": "Cookie Chair"
+    },
+    {
+      "troopnumber": 6789,
+      "position": "Co-leader"
+    }
+  ],
+  "scouts": [
+    {
+      "scoutid": {
+        "$oid": "60bf30d1e8f9c23f691c8e32"
+      },
+      "firstname": "Grace",
+      "lastname": "Hopper",
+      "troopnumber": 1234
+    },
+    {
+      "scoutid": {
+        "$oid": "60be1f5a38a30d2cf9e893d6"
+      },
+      "firstname": "Barbara",
+      "lastname": "Liskov",
+      "troopnumber": 6789
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "60be5d91e8f9c23f691c8e17"
+  },
+  "firstname": "James",
+  "lastname": "Holden",
+  "birthday": {
+    "$date": "1992-06-04T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "troopnumber": 1234,
+      "position": "Co-leader"
+    }
+  ],
+  "scouts": [
+    {
+      "scoutid": {
+        "$oid": "60bf30d1e8f9c23f691c8e31"
+      },
+      "firstname": "Naomi",
+      "lastname": "Nagata",
+      "troopnumber": 1234
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "60be01d5b7f9c90f294c7d17"
+  },
+  "firstname": "Lord",
+  "lastname": "Bryon",
+  "birthday": {
+    "$date": {
+      "$numberLong": "-146361600000"
+    }
+  },
+  "roles": [],
+  "scouts": [
+    {
+      "scoutid": {
+        "$oid": "60be1f5a38a30d2cf9e893d6"
+      },
+      "firstname": "Barbara",
+      "lastname": "Liskov",
+      "troopnumber": 6789
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "60be01d5b7f9c90f294c7d16"
+  },
+  "firstname": "Mary",
+  "lastname": "Jackson",
+  "birthday": {
+    "$date": {
+      "$numberLong": "-536457600000"
+    }
+  },
+  "roles": [],
+  "scouts": [
+    {
+      "scoutid": {
+        "$oid": "60be01d5b7f9c90f294c7d1e"
+      },
+      "firstname": "Mary",
+      "lastname": "Sparck Jones",
+      "troopnumber": 6789
+    }
+  ]
+}]
